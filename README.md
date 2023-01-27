@@ -36,19 +36,7 @@
    * Channel Pages
    * Direct or unknown
 
-# How to get started
-  1) First, install the script following any one of these   
-      * [Windows without installing python](https://github.com/MShawon/YouTube-Viewer#binary-release)    
-      * [Windows from source code](https://github.com/MShawon/YouTube-Viewer#installation)    
-      * [Linux / Mac from source code](https://github.com/MShawon/YouTube-Viewer#linux--mac)
-   2) Then put your video links in the [urls.txt](https://github.com/MShawon/YouTube-Viewer#urls) file
-   3) To search your video on YouTube and then play it put the search keywords and video title in the [search.txt](https://github.com/MShawon/YouTube-Viewer#search) file
-   4) Get your [proxy](https://github.com/MShawon/YouTube-Viewer#proxies) list
-   5) Run the script and follow the instructions from there.
 
-
-# Proxies
- *[IPRoyal](https://iproyal.com?r=18862) offers datacenter and residential proxies. The Royal Residential proxies have a large pool with addresses in over 160 countries all over the world, so they can generate a massive number of views. IPRoyal agreed to provide a huge discount for my script users, so the price will be as low as 3.60USD/GB! To get this incredible 10% discount for Royal Residential proxies, use the discount code: `youtubers10`*
 
 
 * ## Free Proxy
@@ -98,13 +86,10 @@
    Can generate views on YouTube Music too. In **urls.txt** put your music link like this `https://music.youtube.com/watch?v=xxxxx`. Script will automatically load YouTube Music when it sees link have `music.youtube.com`. **Search feature is not available for this.** So you need to empty the search.txt otherwise it will start searching videos in default YouTube.
 
 
-# Fast VPS with Unlimited Traffic
-  *[PetroSky](https://petrosky.io/mshawon) is one of the various CloudHosting services with the fastest and most convenient cloud technology. Their servers are powered by the latest **AMD RYZEN/EPYC CPUs** with High-Performance **NVMe SSD Hard Drives** that will let your application run faster than ever. You can get 2 vCPU with 4 GB ECC RAM for as low as 11.99€/month which will work very well for YouTube-Viewer script for 2 threads. Visit [PetroSky](https://petrosky.io/mshawon) to get the fastest VPS with unlimited traffic at the lowest price. Use this code `mshawon25` to get **25% discount**  on your purchase*
-
 # Windows
 * ## Binary Release
 
-  For windows you can download binary releases from **[Binary releases](https://github.com/MShawon/YouTube-Viewer/releases)**. Download this file named `YouTube-Viewer_win_x.x.x.zip`, unzip it and run the `youtube_viewer.exe`. Or you can install it from source. To do so keep reading. 
+  For windows you can download binary releases from . Download this file named `YouTube-Viewer_win_x.x.x.zip`, unzip it and run the `youtube_viewer.exe`. Or you can install it from source. To do so keep reading. 
   
 * ## Installation
 
@@ -112,7 +97,6 @@
   
   Open command prompt and type
   ```
-  git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
   ```
   ```
   cd YouTube-Viewer
@@ -151,8 +135,7 @@
   
   Open your favourite terminal and run
    ```
-  git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
-  ```
+  
   ```
   cd YouTube-Viewer
   ```
@@ -185,12 +168,5 @@
         ```
    * Rest is self explanatory.
  
- # Best Practices
-  To get the most out of this script you should maintain these things.
-  * Don't use HEADLESS mode. Because no IP leak prevention, fingerprint defending, etc. can be done in headless mode.
-  * Youtube doesn't count views from the same IP after a certain time. Like, don't expect to get 100 views from 10 proxies. If you want more views, try to use a lot of premium proxies(free proxies are flagged by most websites). DO NOT use TOR proxies.
-  * It seems Rotating proxy gives the best result. But the IP MUST NOT change on each request. Set the sticky session or TTL to 5 to 15 minutes.
-  * Use both [urls.txt](https://github.com/MShawon/YouTube-Viewer#urls) and [search.txt](https://github.com/MShawon/YouTube-Viewer#search)
-  * And use as many [urls](https://github.com/MShawon/YouTube-Viewer#urls) and [keyword::::title](https://github.com/MShawon/YouTube-Viewer#search) as you can. Don't use just one video.
 
 
